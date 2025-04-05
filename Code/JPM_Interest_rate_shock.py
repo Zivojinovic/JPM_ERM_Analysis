@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Load and clean data
-file_path = r"C:\Users\zivoj\Documents\JPM_ERM_Analysis\JPMfinal.csv"
+file_path = "file_path = "Data/JPMfinal.csv""
 df = pd.read_csv(file_path)
 
 #Convert all numeric columns to float (in billions), except Net Yield (percentage)
